@@ -1,5 +1,6 @@
 # EventManagerAPI
 EventManagerAPI is a backend server built with FastAPI for managing event data. This project includes various endpoints for creating, reading, updating, and deleting events, as well as filtering and analyzing event data.
+
 ## Features
 
 - **CRUD Operations**: Create, read, update, and delete events.
@@ -24,37 +25,37 @@ EventManagerAPI is a backend server built with FastAPI for managing event data. 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/JessieXu959/EventManagerAPI.git
+    git clone git@github.com:JessieXu959/EventManagerAPI.git
     ```
 
 2. **Create a virtual environment**:
     ```bash
     python -m venv venv
-    or
-    py -m venv venv
-    or
-    py3 -m venv venv
     ```
-3.**Active a virtualenv**
-   ```bash
-   Windows users from CMD run this command:
-  .\venv\Scripts\activate.bat
+   
+3. **Activate the virtual environment**:
+   - Windows CMD:
+     ```bash
+     .\venv\Scripts\activate.bat
+     ```
+   - Windows PowerShell:
+     ```powershell
+     .\venv\Scripts\Activate.ps1
+     ```
+   - Linux/Mac:
+     ```bash
+     source venv/bin/activate
+     ```
 
-   Windows users from PowerShell run this command:
-  .\venv\Scripts\Activate.ps1
-
-   Linux or Mac users run this command:
-   source venv/bin/activate
-   ```
 4. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the application**:
+5. **Run the application**:
     ```bash
-    py app/main.py
+    uvicorn app.src.app:app --reload
     ```
 
-5. **Access the API documentation**:
+6. **Access the API documentation**:
     Open your browser and go to `http://127.0.0.1:8000/docs` to see the interactive API documentation.
