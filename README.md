@@ -12,7 +12,6 @@ EventManagerAPI is a backend server built with FastAPI for managing event data. 
 - **FastAPI**: A modern, fast (high-performance), web framework for building APIs with Python 3.7+.
 - **Python**: The programming language used for developing the backend.
 - **Uvicorn**: A lightning-fast ASGI server for serving FastAPI applications.
-- **Deta**: A cloud platform for deploying the FastAPI application.
 
 ## Installation and Setup
 
