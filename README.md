@@ -27,7 +27,7 @@ EventManagerAPI is a backend server built with FastAPI for managing event data. 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/EventManagerAPI.git
+    git clone https://github.com/JessieXu959/EventManagerAPI.git
     cd EventManagerAPI
     ```
 
