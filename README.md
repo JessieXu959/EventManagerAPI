@@ -19,31 +19,41 @@ EventManagerAPI is a backend server built with FastAPI for managing event data. 
 
 - Python 3.7+
 - pip (Python package installer)
-- Deta CLI (for deployment)
-- Vercel account (for front-end deployment)
 
 ### Local Setup
 
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/JessieXu959/EventManagerAPI.git
-    cd EventManagerAPI
     ```
 
 2. **Create a virtual environment**:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    or
+    py -m venv venv
+    or
+    py3 -m venv venv
     ```
+3.**Active a virtualenv**
+   ```bash
+Windows users from CMD run this command:
+  .\venv\Scripts\activate.bat
 
-3. **Install dependencies**:
+Windows users from PowerShell run this command:
+  .\venv\Scripts\Activate.ps1
+
+Linux or Mac users run this command:
+  source venv/bin/activate
+```
+4. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
 4. **Run the application**:
     ```bash
-    uvicorn app.main:app --reload
+    py app/main.py
     ```
 
 5. **Access the API documentation**:
