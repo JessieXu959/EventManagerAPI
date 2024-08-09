@@ -44,8 +44,8 @@ EventManagerAPI is a backend server built with FastAPI for managing event data. 
   .\venv\Scripts\Activate.ps1
 
    Linux or Mac users run this command:
-  source venv/bin/activate
-```
+   source venv/bin/activate
+   ```
 4. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
