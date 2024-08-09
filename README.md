@@ -37,13 +37,13 @@ EventManagerAPI is a backend server built with FastAPI for managing event data. 
     ```
 3.**Active a virtualenv**
    ```bash
-Windows users from CMD run this command:
+   Windows users from CMD run this command:
   .\venv\Scripts\activate.bat
 
-Windows users from PowerShell run this command:
+   Windows users from PowerShell run this command:
   .\venv\Scripts\Activate.ps1
 
-Linux or Mac users run this command:
+   Linux or Mac users run this command:
   source venv/bin/activate
 ```
 4. **Install dependencies**:
