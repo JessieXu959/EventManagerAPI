@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Test event 1",
+        "date": "2024-03-06",
+        "organizer": {
+            "name": "fdev",
+            "email": "fdev@example.com"
+        },
+        "status": "active",
+        "type": "event",
+        "joiners": [
+            {
+                "name": "Tom",
+                "email": "test@test.com",
+                "country": "Hungary"
+            }
+        ],
+        "location": "Budapest, Hungary",
+        "max_attendees": 100
+    },
+    {
+        "id": 2,
+        "name": "Test event 2",
+        "date": "2024-04-20",
+        "organizer": {
+            "name": "Rita",
+            "email": "rita@example.com"
+        },
+        "status": "active",
+        "type": "event",
+        "joiners": [
+            {
+                "name": "Moni",
+                "email": "test@test.com",
+                "country": "China"
+            }
+        ],
+        "location": "HeNan,China",
+        "max_attendees": 200
+    },
+    {
+        "id": 3,
+        "name": "Test event 1",
+        "date": "2024-03-06",
+        "organizer": {
+            "name": "fdev",
+            "email": "fdev@example.com"
+        },
+        "status": "active",
+        "type": "event",
+        "location": "Budapest, Hungary",
+        "max_attendees": 100,
+        "joiners": [
+            {
+                "name": "Tom",
+                "email": "test@test.com",
+                "country": "Hungary"
+            }
+        ]
+    }
+]
